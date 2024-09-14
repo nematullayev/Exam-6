@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1111px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  background-color: #e6eff9;
+  padding: 50px 0;
+}
+.form {
+  display: flex;
+  gap: 20px;
+
+  padding-bottom: 20px;
+  border-bottom: 1px solid blue;
+}
+#title {
+  width: 100%;
+}
+.hero {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
